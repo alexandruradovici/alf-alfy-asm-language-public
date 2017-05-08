@@ -1,0 +1,46 @@
+{
+    "symbol": [
+        {
+            "variables": {},
+            "functions": {
+                "sum": {
+                    "type": "int",
+                    "parameters": [
+                        {
+                            "id": "n1",
+                            "type": "int",
+                            "line": 4,
+                            "symbol": 1
+                        },
+                        {
+                            "id": "n2",
+                            "type": "int",
+                            "line": 5,
+                            "symbol": 1
+                        }
+                    ],
+                    "symbol": 1,
+                    "line": 9
+                }
+            },
+            "types": {},
+            "type": "script"
+        },
+        {
+            "variables": {},
+            "functions": {},
+            "types": {},
+            "parent": 0,
+            "type": "function",
+            "fn": "sum",
+            "value_type": "int"
+        }
+    ],
+    "ast": {
+        "type": "script",
+        "statements": [],
+        "line": 9,
+        "symbol": 0
+    },
+    "error_list": []
+}

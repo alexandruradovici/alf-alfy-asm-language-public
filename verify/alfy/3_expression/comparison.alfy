@@ -1,0 +1,3 @@
+{Comparison expression}
+
+asm writenumber 2+4 > 5*6 and 4+5 < 6/7;

@@ -1,0 +1,5 @@
+{Expression with variable}
+
+define n => int;
+n is 3;
+asm writenumber n+4;

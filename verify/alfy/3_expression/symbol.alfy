@@ -1,0 +1,3 @@
+{Symbol expression}
+
+asm write 2+"s";

@@ -1,0 +1,47 @@
+{
+    "symbol": [
+        {
+            "variables": {},
+            "functions": {},
+            "types": {},
+            "type": "script"
+        }
+    ],
+    "ast": {
+        "type": "script",
+        "statements": [
+            {
+                "type": "asm",
+                "instruction": "write",
+                "parameters": [
+                    {
+                        "type": "expression",
+                        "op": "+",
+                        "left": {
+                            "type": "value",
+                            "t": "int",
+                            "value": 2,
+                            "line": 3,
+                            "symbol": 0
+                        },
+                        "right": {
+                            "type": "value",
+                            "t": "symbol",
+                            "value": "s",
+                            "line": 3,
+                            "symbol": 0
+                        },
+                        "line": 3,
+                        "symbol": 0,
+                        "t": "int"
+                    }
+                ],
+                "line": 3,
+                "symbol": 0
+            }
+        ],
+        "line": 3,
+        "symbol": 0
+    },
+    "error_list": []
+}

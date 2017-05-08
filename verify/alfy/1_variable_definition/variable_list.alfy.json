@@ -1,0 +1,34 @@
+{
+    "symbol": [
+        {
+            "variables": {
+                "n": {
+                    "type": "int",
+                    "line": 2
+                },
+                "s": {
+                    "type": "string",
+                    "line": 3
+                },
+                "r": {
+                    "type": "real",
+                    "line": 4
+                },
+                "l": {
+                    "type": "logic",
+                    "line": 5
+                }
+            },
+            "functions": {},
+            "types": {},
+            "type": "script"
+        }
+    ],
+    "ast": {
+        "type": "script",
+        "statements": [],
+        "line": 5,
+        "symbol": 0
+    },
+    "error_list": []
+}

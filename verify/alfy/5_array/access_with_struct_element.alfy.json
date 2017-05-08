@@ -1,0 +1,85 @@
+{
+    "symbol": [
+        {
+            "variables": {
+                "v": {
+                    "type": "list",
+                    "line": 4
+                },
+                "s": {
+                    "type": "structure",
+                    "line": 10
+                }
+            },
+            "functions": {},
+            "types": {
+                "list": {
+                    "type": "array",
+                    "line": 2,
+                    "elements_type": "int",
+                    "from": 1,
+                    "to": 9
+                },
+                "structure": {
+                    "type": "struct",
+                    "line": 8,
+                    "elements": [
+                        {
+                            "type": "int",
+                            "id": "position",
+                            "line": 7
+                        }
+                    ]
+                }
+            },
+            "type": "script"
+        }
+    ],
+    "ast": {
+        "type": "script",
+        "statements": [
+            {
+                "type": "attribution",
+                "to": {
+                    "type": "element_of_array",
+                    "array": {
+                        "type": "id",
+                        "value": "v",
+                        "line": 12,
+                        "symbol": 0,
+                        "t": "list"
+                    },
+                    "index": {
+                        "type": "element_of_struct",
+                        "struct": {
+                            "type": "id",
+                            "value": "s",
+                            "line": 12,
+                            "symbol": 0,
+                            "t": "structure"
+                        },
+                        "element": "position",
+                        "line": 12,
+                        "symbol": 0,
+                        "t": "int"
+                    },
+                    "line": 12,
+                    "symbol": 0,
+                    "t": "int"
+                },
+                "from": {
+                    "type": "value",
+                    "t": "int",
+                    "value": 6,
+                    "line": 12,
+                    "symbol": 0
+                },
+                "line": 12,
+                "symbol": 0
+            }
+        ],
+        "line": 12,
+        "symbol": 0
+    },
+    "error_list": []
+}

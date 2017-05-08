@@ -1,0 +1,71 @@
+{
+    "symbol": [
+        {
+            "variables": {
+                "s": {
+                    "type": "school",
+                    "line": 8
+                }
+            },
+            "functions": {},
+            "types": {
+                "school": {
+                    "type": "struct",
+                    "line": 6,
+                    "elements": [
+                        {
+                            "type": "string",
+                            "id": "name",
+                            "line": 3
+                        },
+                        {
+                            "type": "logic",
+                            "id": "private",
+                            "line": 4
+                        },
+                        {
+                            "type": "int",
+                            "id": "type",
+                            "line": 5
+                        }
+                    ]
+                }
+            },
+            "type": "script"
+        }
+    ],
+    "ast": {
+        "type": "script",
+        "statements": [
+            {
+                "type": "attribution",
+                "to": {
+                    "type": "element_of_struct",
+                    "struct": {
+                        "type": "id",
+                        "value": "s",
+                        "line": 10,
+                        "symbol": 0,
+                        "t": "school"
+                    },
+                    "element": "private",
+                    "line": 10,
+                    "symbol": 0,
+                    "t": "logic"
+                },
+                "from": {
+                    "type": "value",
+                    "t": "logic",
+                    "value": true,
+                    "line": 10,
+                    "symbol": 0
+                },
+                "line": 10,
+                "symbol": 0
+            }
+        ],
+        "line": 10,
+        "symbol": 0
+    },
+    "error_list": []
+}

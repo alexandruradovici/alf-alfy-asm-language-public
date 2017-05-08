@@ -1,0 +1,110 @@
+{
+    "symbol": [
+        {
+            "variables": {
+                "n": {
+                    "type": "int",
+                    "value": {
+                        "type": "value",
+                        "t": "int",
+                        "value": 3,
+                        "line": 2,
+                        "symbol": 0
+                    },
+                    "line": 2
+                },
+                "r": {
+                    "type": "real",
+                    "value": {
+                        "type": "value",
+                        "t": "real",
+                        "value": 3.7,
+                        "line": 3,
+                        "symbol": 0
+                    },
+                    "line": 3
+                },
+                "l": {
+                    "type": "logic",
+                    "value": {
+                        "type": "value",
+                        "t": "logic",
+                        "value": false,
+                        "line": 4,
+                        "symbol": 0
+                    },
+                    "line": 4
+                },
+                "s": {
+                    "type": "string",
+                    "line": 5
+                }
+            },
+            "functions": {},
+            "types": {},
+            "type": "script"
+        }
+    ],
+    "ast": {
+        "type": "script",
+        "statements": [
+            {
+                "type": "attribution",
+                "to": {
+                    "type": "id",
+                    "value": "n",
+                    "symbol": 0,
+                    "t": "int"
+                },
+                "from": {
+                    "type": "value",
+                    "t": "int",
+                    "value": 3,
+                    "line": 2,
+                    "symbol": 0
+                },
+                "line": 5,
+                "symbol": 0
+            },
+            {
+                "type": "attribution",
+                "to": {
+                    "type": "id",
+                    "value": "r",
+                    "symbol": 0,
+                    "t": "real"
+                },
+                "from": {
+                    "type": "value",
+                    "t": "real",
+                    "value": 3.7,
+                    "line": 3,
+                    "symbol": 0
+                },
+                "line": 5,
+                "symbol": 0
+            },
+            {
+                "type": "attribution",
+                "to": {
+                    "type": "id",
+                    "value": "l",
+                    "symbol": 0,
+                    "t": "logic"
+                },
+                "from": {
+                    "type": "value",
+                    "t": "logic",
+                    "value": false,
+                    "line": 4,
+                    "symbol": 0
+                },
+                "line": 5,
+                "symbol": 0
+            }
+        ],
+        "line": 5,
+        "symbol": 0
+    },
+    "error_list": []
+}

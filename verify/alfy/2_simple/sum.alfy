@@ -1,0 +1,10 @@
+{Sum}
+
+define x => int y => int s => int;
+
+asm readnumber to x;
+asm readnumber to y;
+
+s is x+y;
+
+asm writenumber s;
