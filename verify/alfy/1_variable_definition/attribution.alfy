@@ -2,3 +2,5 @@
 define n => int;
 
 n is 6;
+
+asm writenumber n;	

@@ -1,0 +1,8 @@
+{Real from int}
+
+define s => real;
+define n => int;
+
+asm readnumber to n;
+s is n;
+asm writenumber s;

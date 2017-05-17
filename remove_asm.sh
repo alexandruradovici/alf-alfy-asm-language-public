@@ -14,4 +14,8 @@ do
 	do
 		rm $file
 	done
+	for file in $folder/*.out
+	do
+		rm $file
+	done
 done

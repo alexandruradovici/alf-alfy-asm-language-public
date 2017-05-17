@@ -33,9 +33,24 @@
                 },
                 "line": 4,
                 "symbol": 0
+            },
+            {
+                "type": "asm",
+                "instruction": "writenumber",
+                "parameters": [
+                    {
+                        "type": "id",
+                        "value": "n",
+                        "line": 6,
+                        "symbol": 0,
+                        "t": "int"
+                    }
+                ],
+                "line": 6,
+                "symbol": 0
             }
         ],
-        "line": 4,
+        "line": 7,
         "symbol": 0
     },
     "error_list": []

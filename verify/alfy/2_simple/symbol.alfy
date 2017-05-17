@@ -1,0 +1,7 @@
+{Symbol}
+
+define c => symbol is "s";
+
+c is c + 6;
+
+asm write c;

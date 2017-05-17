@@ -6,5 +6,5 @@ start:
         set r2 0
         ; variable: r3
         set r3 0
-    load r3 r2
+    store r3 r2
     stop

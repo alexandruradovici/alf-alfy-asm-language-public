@@ -1,0 +1,5 @@
+{Logic}
+
+define a => logic is false;
+
+asm writenumber a;

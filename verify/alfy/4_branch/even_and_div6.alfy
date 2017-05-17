@@ -1,0 +1,18 @@
+{Even and div6 number}
+define a => int;
+define e => symbol;
+
+asm readnumber to a;
+
+if (a mod 2 = 0) then
+	if (a mod 6 = 0) then
+		e is "y";
+	else
+		e is "n";
+	end;
+else
+	e is "o";
+end;
+
+
+asm write e;

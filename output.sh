@@ -8,3 +8,18 @@ do
 		node main.js $file
 	done
 done
+
+cd verify 
+
+for folder in alfy/*
+do
+	for file in $folder/*.alfy
+	do
+		echo $file
+		keyboardfile="$file".in
+		if [ ! -f $keyboardfile ]; then keyboardfile="empty.in"; fi
+		./run_asm.sh "$file".asm "$keyboardfile" "$file".asm.out
+	done
+done
+
+cd ..

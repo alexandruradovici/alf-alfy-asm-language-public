@@ -1,0 +1,4 @@
+{Real number}
+define a => real is 3.7;
+
+asm writenumber a;

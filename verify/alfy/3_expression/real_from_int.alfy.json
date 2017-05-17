@@ -1,0 +1,77 @@
+{
+    "symbol": [
+        {
+            "variables": {
+                "s": {
+                    "type": "real",
+                    "line": 3
+                },
+                "n": {
+                    "type": "int",
+                    "line": 4
+                }
+            },
+            "functions": {},
+            "types": {},
+            "type": "script"
+        }
+    ],
+    "ast": {
+        "type": "script",
+        "statements": [
+            {
+                "type": "asm",
+                "instruction": "readnumber",
+                "parameters": [
+                    {
+                        "type": "id",
+                        "value": "n",
+                        "line": 6,
+                        "address": true,
+                        "symbol": 0,
+                        "t": "int"
+                    }
+                ],
+                "line": 6,
+                "symbol": 0
+            },
+            {
+                "type": "attribution",
+                "to": {
+                    "type": "id",
+                    "value": "s",
+                    "line": 7,
+                    "symbol": 0,
+                    "t": "real"
+                },
+                "from": {
+                    "type": "id",
+                    "value": "n",
+                    "line": 7,
+                    "symbol": 0,
+                    "t": "int"
+                },
+                "line": 7,
+                "symbol": 0
+            },
+            {
+                "type": "asm",
+                "instruction": "writenumber",
+                "parameters": [
+                    {
+                        "type": "id",
+                        "value": "s",
+                        "line": 8,
+                        "symbol": 0,
+                        "t": "real"
+                    }
+                ],
+                "line": 8,
+                "symbol": 0
+            }
+        ],
+        "line": 9,
+        "symbol": 0
+    },
+    "error_list": []
+}

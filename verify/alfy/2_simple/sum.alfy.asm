@@ -22,7 +22,7 @@ start:
         add r2 r3 r4
         ; s: r3
         set r3 8
-    load r3 r2
+    store r3 r2
     ; asm
         ; s: r2
         set r2 8

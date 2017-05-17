@@ -1,0 +1,63 @@
+{
+    "symbol": [
+        {
+            "variables": {
+                "a": {
+                    "type": "real",
+                    "value": {
+                        "type": "value",
+                        "t": "real",
+                        "value": 3.7,
+                        "line": 2,
+                        "symbol": 0
+                    },
+                    "line": 2
+                }
+            },
+            "functions": {},
+            "types": {},
+            "type": "script"
+        }
+    ],
+    "ast": {
+        "type": "script",
+        "statements": [
+            {
+                "type": "attribution",
+                "to": {
+                    "type": "id",
+                    "value": "a",
+                    "symbol": 0,
+                    "t": "real"
+                },
+                "from": {
+                    "type": "value",
+                    "t": "real",
+                    "value": 3.7,
+                    "line": 2,
+                    "symbol": 0
+                },
+                "line": 2,
+                "symbol": 0
+            },
+            {
+                "type": "asm",
+                "instruction": "writenumber",
+                "parameters": [
+                    {
+                        "type": "id",
+                        "value": "a",
+                        "line": 4,
+                        "symbol": 0,
+                        "t": "real"
+                    }
+                ],
+                "line": 4,
+                "symbol": 0
+            }
+        ],
+        "line": 5,
+        "symbol": 0
+    },
+    "error_list": []
+}

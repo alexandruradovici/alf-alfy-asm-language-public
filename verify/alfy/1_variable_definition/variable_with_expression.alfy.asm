@@ -14,5 +14,10 @@ start:
         add r2 r3 r4
         ; e: r3
         set r3 0
-    load r3 r2
+    store r3 r2
+    ; asm
+        ; e: r2
+        set r2 0
+        load r2 r2
+    writenumber r2 
     stop

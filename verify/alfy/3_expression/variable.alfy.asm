@@ -6,7 +6,7 @@ start:
         set r2 3
         ; n: r3
         set r3 0
-    load r3 r2
+    store r3 r2
     ; asm
         ; expression +
             ; n: r3

@@ -8,7 +8,7 @@ run:
 	@cd verify && ./run_all.sh ../main.js
 
 pack:
-	zip -r semantic.zip verify/ Makefile.checker\
+	zip -r alfyasm.zip alf_computer32.cpu verify/ CPUSim4.0.9/ Makefile.checker\
 		README.md 
 
 clean:
