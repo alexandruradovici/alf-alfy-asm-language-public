@@ -23,12 +23,18 @@ passed=0
 failed=0
 total=0
 
-rm alfy.js
+npm install lodash
+
+df -h
 
 echo '{ "node":true, "loopfunc": true, "esnext":true }' > .jshintrc
+echo 'alfy.js' > .jshintignore
 if [ ! -f `basename "$1"` ];
 then
 	echo "Your main.js file is missing"
+elif ! jshint *.js;
+then
+	echo "Please review your code, you have jshint errors"
 else
 	cd -
 	for folder in alfy/*
